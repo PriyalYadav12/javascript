@@ -29,5 +29,29 @@ let myObj = {
 }
 
 const myFunction = function(){
-    console.log("hello world");   
+    console.log("hello world");    
 }
+ 
+
+
+// **********  STACK (PRIMITIVE) || HEAP(NON-PRIMITIVE) ************
+
+let myYoutubename = "hiteshchoudharycom"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let user1 = {
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+
+let user2 = user1
+user2.email = "hietsh@google.com"
+
+console.log(user1.email);
+console.log(user2.email);
+
